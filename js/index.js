@@ -184,8 +184,9 @@ function render(data) {
     $('.cover img').attr('src', data.cover);//歌曲封面
     $('audio').attr("src", data.audio_url);//歌曲音频
     //背图片
+    /*
     $('.mask_bg').css({
         background:`url("${data.cover}") no-repeat center center`
-    })
+    })*/
 }
 
