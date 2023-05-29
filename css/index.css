@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    background-color: #b3b0b0;
+    /* user-select: none; */
+}
+.player-warp{
+    position: relative;
+}
+/* 音乐控制器开始 */
+.player-warp .player-control{
+    background-color:#3d4762;
+    width: 360px;
+    height: 80px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    z-index: 10;
+}
+.player-control .cover{
+    width: 100px;
+    height: 100px;
+    margin-top: -60px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 6px;
+    position: relative;
+    /* 动画 */
+    animation: zhuan 5s infinite linear;
+    animation-play-state: paused;/* paused 停止动画 */
+    
+}
+/* 动画 */
+@keyframes zhuan {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* 使用伪元素定位封面白点 */
+.player-control .cover::before{
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+}
+.player-control .cover img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* 控制按钮 */
+.control{
+    width: 60%;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+}
+.control i{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 26px;
+    color: #b3b0b0;
+    cursor: pointer;/* 鼠标小手 */
+    transition: all 0.4s; /* 过度效果 */
+}
+.control i:hover{
+    border-radius:6px;
+    background-color: rgba(71,70, 70, 0.2);
+    color: #fff;
+}
+
+/* 歌曲信息卡片 */
+.player-info{
+    width: 90%;
+    position: absolute;
+    /* top: 100%; */
+    top: 0%;
+    left: 50%;
+    padding: 10px;
+    background: #fff;
+    transform: translate(-50%);
+    z-index: -1;
+    box-shadow: 0 8px 32px 0 rgba(31, 38,135,0.37); /* 阴影 */
+    backdrop-filter: blur(3.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    justify-content: flex-end;
+    opacity: 0;
+}
+.player-info .info{
+    width: 60%;
+    font-size: 15px;
+}
+.info .name{
+    font-size: 15px;
+    font-weight: bold;
+}
+.info .singer-album{
+    color: #757474;
+    line-height: 20px;
+}
+/* 进度条%比 */
+.info .music_progress{
+    width: 100%;
+}
+.music_progress .music_progress-top{
+    display: flex;
+    justify-content: space-between;
+    color:#757474;
+    line-height: 20px;
+}
+.music_progress .music_progress-bar{
+    widows: 100%;
+    height: 3px;
+    background-color: #cccaca;
+    border-radius: 10px;
+    margin-top: 3px;
+}
+.music_progress-bar .music_progress-line{
+    width: 0%;
+    height: 100%;
+    background-color: blue;
+}
+/* 页面背景 */
+.mask_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    background: url("http://p2.music.126.net/34YW1QtKxJ_3YnX9ZzKhzw==/2946691234868155.jpg") no-repeat center center;
+    background-size: cover;
+    /* 模糊 */
+    filter: blur(50px);
+    transition: all 1s;
+}
+
+/* 模态框 */
+.modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.modal .modal-box{
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* 列表上边 */
+.modal-box .modal-box-top{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-box-top .modal-close{
+    font-size: 20px;
+    cursor: pointer;
+    transition:transform 0.4s;
+}
+.modal-box-top .modal-close:hover{
+    transform: rotate(180deg);
+}
+
+/* 列表下边  */
+.modal-box .modal-wrapper{
+    width: 100%;
+    height: calc(100% - 40px);
+    overflow: auto;
+}
+ .music-list li{
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(186, 182, 182);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .play-circle{
+    font-size: 20px;
+    margin-right: 20px;
+    transition: transform 0.4s;
+    cursor: pointer;
+ }
+ .play-circle:hover{
+    transform: scale(1.2);
+ }
+
+ .playing {
+    color: aqua;
+ }
