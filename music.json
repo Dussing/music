@@ -1,98 +1,106 @@
 [
   {
-    "name": "一人饮酒醉(柔情版)",
-    "audio_url": "./audios/程嘉敏 - 一人饮酒醉 (柔情版) [mqms].mp3",
-    "singer": "程嘉敏",
-    "album": "吴少华",
-    "cover": "./img/cjm.jpeg",
-    "time": "01:22"
-  },
-  {
-    "name": "明月天涯",
-    "audio_url": "./audios/等什么君 - 明月天涯 [mqms2].mp3",
-    "singer": "等什么君",
-    "album": "吴少华",
-    "cover": "./img/dsmj.jpg",
-    "time": "04:14"
-  },
-  {
-    "name": "生僻字",
-    "audio_url": "./audios/陈柯宇 - 生僻字.mp3",
-    "singer": "陈柯宇",
-    "album": "吴少华",
-    "cover": "./img/cky.jpeg",
+    "name": "Celebrity",
+    "audio_url": "./audios/Celebrity - EdenJiyon.mp3",
+    "singer": "EdenJiyon",
+    "album": "dusing",
+    "cover": "./img/bg1.jpg",
     "time": "03:36"
   },
   {
-    "name": "依存症",
-    "audio_url": "./audios/东京塔子 - 依存症 [mqms2].mp3",
-    "singer": "东京塔子",
-    "album": "吴少华",
-    "cover": "./img/djdz.jpeg",
-    "time": "04:39"
-  } ,
-  {
-    "name": "恶魔的爱",
-    "audio_url": "./audios/李宏毅&李明霖 - 恶魔的爱 [mqms2].mp3",
-    "singer": "李宏毅&李明霖",
-    "album": "吴少华",
-    "cover": "./img/lml.jpeg",
-    "time": "04:12"
+    "name": "Remember Our Summer",
+    "audio_url": "./audios/Remember Our Summer - FrogMonster.mp3",
+    "singer": "FrogMonster",
+    "album": "dusing",
+    "cover": "./img/bg1.jpg",
+    "time": "03:36"
   },
   {
-    "name": "梦回还",
-    "audio_url": "./audios/呦猫UNEKO - 梦回还 [mqms2].mp3",
-    "singer": "呦猫UNEKO",
-    "album": "吴少华",
-    "cover": "./img/ym.jpeg",
-    "time": "04:10"
+    "name": "Dancing With Your Ghost",
+    "audio_url": "./audios/Dancing With Your Ghost (不插电版) - Sasha Alex Sloan.mp3",
+    "singer": "Sasha Alex Sloan",
+    "album": "dusing",
+    "cover": "./img/bg1.jpg",
+    "time": "03:36"
   },
   {
-    "name": "勇敢爱",
-    "audio_url": "./audios/Mi2 - 勇敢爱 [mqms2].mp3.mp3",
-    "singer": "Mi2",
-    "album": "吴少华",
-    "cover": "./img/mi2.jpeg",
-    "time": "04:16"
+    "name": "Nevada",
+    "audio_url": "./audios/Nevada - VicetoneCozi Zuehlsdorff.mp3",
+    "singer": "VicetoneCozi Zuehlsdorff",
+    "album": "dusing",
+    "cover": "./img/bg1.jpg",
+    "time": "03:36"
   },
   {
-    "name": "当归",
-    "audio_url": "./audios/宿雨涵 - 当归.ogg",
-    "singer": "宿雨涵",
-    "album": "吴少华",
-    "cover": "./img/syh.jpeg",
-    "time": "03:54"
+    "name": "步步",
+    "audio_url": "./audios/步步-五月天.mp3",
+    "singer": "五月天",
+    "album": "dusing",
+    "cover": "./img/bg1.jpg",
+    "time": "03:36"
   },
   {
-    "name": "时光笔墨",
-    "audio_url": "./audios/张碧晨 - 时光笔墨.ogg",
-    "singer": "张碧晨",
-    "album": "吴少华",
-    "cover": "./img/zbc.jpeg",
-    "time": "05:01"
+    "name": "故事终章",
+    "audio_url": "./audios/故事终章 - 程响.mp3",
+    "singer": "程响",
+    "album": "dusing",
+    "cover": "./img/bg1.jpg",
+    "time": "03:36"
   },
   {
-    "name": "勾指起誓",
-    "audio_url": "./audios/泠鸢yousa - 勾指起誓.ogg",
-    "singer": "泠鸢yousa",
-    "album": "吴少华",
-    "cover": "../img/ly.jpg",
-    "time": "03:03"
+    "name": "后来的我们",
+    "audio_url": "./audios/后来的我们 - 五月天.mp3",
+    "singer": "五月天",
+    "album": "dusing",
+    "cover": "./img/bg1.jpg",
+    "time": "03:36"
   },
   {
-    "name": "散仙如烟",
-    "audio_url": "./audios/醋醋 - 散仙如烟.ogg",
-    "singer": "醋醋",
-    "album": "吴少华",
-    "cover": "./img/cucu.jpeg",
-    "time": "03:43"
+    "name": "嘉宾",
+    "audio_url": "./audios/嘉宾-路飞文.mp3",
+    "singer": "路飞文",
+    "album": "dusing",
+    "cover": "./img/bg1.jpg",
+    "time": "03:36"
   },
   {
-    "name": "爱情女神",
-    "audio_url": "./audios/郭美美 - 爱情女神.ogg",
-    "singer": "郭美美",
-    "album": "吴少华",
-    "cover": "./img/aqns.jpg",
+    "name": "就是爱你",
+    "audio_url": "./audios/就是爱你 - 陶喆.mp3",
+    "singer": "陶喆",
+    "album": "dusing",
+    "cover": "./img/bg1.jpg",
+    "time": "03:36"
+  },
+  {
+    "name": "可能",
+    "audio_url": "./audios/可能-程响.mp3",
+    "singer": "程响",
+    "album": "dusing",
+    "cover": "./img/bg1.jpg",
+    "time": "03:36"
+  },
+  {
+    "name": "我爱你不问归期",
+    "audio_url": "./audios/我爱你不问归期 - 白小白.mp3",
+    "singer": "白小白",
+    "album": "dusing",
+    "cover": "./img/bg1.jpg",
+    "time": "03:36"
+  },
+  {
+    "name": "一个人走",
+    "audio_url": "./audios/一个人走-刘佳.mp3",
+    "singer": "刘佳",
+    "album": "dusing",
+    "cover": "./img/bg1.jpg",
+    "time": "03:36"
+  },
+  {
+    "name": "你曾是少年",
+    "audio_url": "./audios/你曾是少年 - S.H.E.mp3",
+    "singer": "S.H.E",
+    "album": "dusing",
+    "cover": "./img/bg1.jpg",
     "time": "03:36"
   }
 ]
